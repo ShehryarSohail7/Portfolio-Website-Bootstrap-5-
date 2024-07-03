@@ -1,0 +1,575 @@
+@media (max-width: 576px) {
+}
+
+.custom-bg1 {
+  background-color: rgba(40, 41, 62, 1);
+}
+
+.custom-bg2 {
+  background-color: rgba(253, 240, 233, 1);
+}
+
+.custom-bg3-footer {
+  background-color: rgba(249, 229, 218, 1);
+}
+
+.navbar-brand {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#navbar_button {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 14.35px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#navbar_button_custom {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 14.35px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#first {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#second {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 80px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#third {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+#button2 {
+  background-color: rgba(239, 109, 88, 1);
+  border-color: rgba(239, 109, 88, 1);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14.35px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#fourth {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#fifth {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#six {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#seven {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#eight {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#nine {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#ten {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+  text-decoration: none;
+}
+
+#eleven {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#twelve {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#thirteen {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#fourteen {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+  background-color: white;
+  text-align: center;
+}
+
+#fifteen {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+}
+
+#third_border {
+  border-color: rgba(58, 60, 86, 1);
+}
+
+#footer_1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+}
+
+#footer_2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#footer_3 {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 48px;
+  color: white;
+}
+
+#footer_4 {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+#footer_5 {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 48px;
+  color: white;
+}
+
+#page4_1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+#page4_2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page4_3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page4_4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+#page4_5 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: rgba(57, 20, 0, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(57, 20, 0, 0.08);
+}
+
+#page4_6 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(57, 20, 0, 1);
+}
+#page4_7 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page5_1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+#page5_2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#page5_3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+#page5_4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+#middle_1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#middle_2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#middle_3 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: rgba(57, 20, 0, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(239, 109, 88, 1);
+  border-color: rgba(239, 109, 88, 1);
+}
+
+#middle_4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#page6_1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#page6_2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page6_3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#page6_4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page6_5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page6_6 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: rgba(57, 20, 0, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+#page7_1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#page7_2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 1);
+}
+#page7_3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+#page7_4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#page7_5_5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+#page7_5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+#page7_6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#last_1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+#last_2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(57, 20, 0, 1);
+  width: 450px;
+}
+
+#last_3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  width: 550px;
+}
+
+#last_4 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: rgba(255, 255, 255, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(239, 109, 88, 1);
+  border-color: rgba(239, 109, 88, 1);
+}
+
+#page_8_1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#page_8_2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page_8_3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page_8_4 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page_8_time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#page_8_button {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: rgba(57, 20, 0, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-color: rgba(57, 20, 0, 0.08);
+  background-color: white;
+}
+
+#page_8_7 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page_8_8 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page_8_9 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#page_8_10 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#page_8_email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 100px;
+  border-color: rgba(243, 209, 191, 1);
+  background-color: white;
+}
+
+#page_9_1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(239, 109, 88, 1);
+}
+
+#page_9_2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#page_9_3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+#page_9_4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
