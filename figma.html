@@ -18,7 +18,7 @@
 
   <body>
     <!--First Page-->
-    <div class="vw-100 vh-md-100 custom-bg1">
+    <div class="vh-md-100 custom-bg1">
       <header>
         <nav class="navbar navbar-dark pt-4">
           <div class="container-fluid d-flex justify-content-around">
@@ -60,17 +60,18 @@
           </div>
         </nav>
       </header>
-      <br /><br /><br /><br />
       <div
-        class="p-5 d-flex flex-md-row flex-column-reverse justify-content-around align-items-center"
+        class="d-flex flex-md-row flex-column-reverse justify-content-around align-items-center"
+        style="height: 90%"
       >
         <div
-          class="text-white col-md-4 col-10 d-flex flex-column justify-content-center flex-wrap"
+          class="text-white col-11 col-md-3 d-flex flex-column justify-content-center"
         >
+          <br />
           <p id="first">Gabriel Pires</p>
           <h1 id="second">The Simple, Clean Design</h1>
           <br />
-          <p id="third" class="col-9">
+          <p id="third" class="col-9 col-md-11">
             Agency provides a full service range including technical skills,
             design, business understanding.
           </p>
@@ -83,15 +84,18 @@
               role="button"
               >SEE MY WORK</a
             >
+            <br />
+            <br />
+            <br />
           </div>
         </div>
-        <img src="/images/pic.png" alt="profile" />
+        <img id="first_page_image" src="/images/pic.png" alt="profile" />
       </div>
     </div>
 
     <!--Second Page-->
     <div
-      class="vw-100 custom-bg2 d-flex flex-column justify-content-around align-items-center"
+      class="custom-bg2 d-flex flex-column justify-content-around align-items-center"
     >
       <div
         class="d-flex justify-content-center flex-column align-items-center w-25 h-25"
@@ -113,7 +117,7 @@
         class="d-flex flex-md-row flex-column h-50 justify-content-center align-items-center"
       >
         <div
-          class="p-5 border border-2 col-md-5 col-8 d-flex flex-column justify-content-around"
+          class="p-5 border border-2 col-md-5 col-11 d-flex flex-column justify-content-around"
         >
           <div class="d-flex">
             <div style="position: relative">
@@ -158,7 +162,7 @@
           </div>
         </div>
         <div
-          class="p-5 border border-2 col-md-5 col-8 d-flex flex-column justify-content-around"
+          class="p-5 border border-2 col-md-5 col-11 d-flex flex-column justify-content-around"
         >
           <div class="d-flex">
             <div style="position: relative">
@@ -221,31 +225,37 @@
 
     <!--Third Page-->
     <div
-      class="vw-100 custom-bg1 d-flex flex-column align-items-center justify-content-around"
+      class="custom-bg1 d-flex flex-column align-items-center justify-content-around"
     >
-      <p id="eleven" class="w-75 mt-5">PORTFOLIO</p>
-      <div class="w-75 d-flex justify-content-between">
+      <p id="eleven" class="col-10 mt-5">PORTFOLIO</p>
+      <div
+        class="col-10 d-flex justify-content-between flex-column flex-md-row"
+      >
         <p id="twelve" class="text-white">Latest Work</p>
         <div>
-          <button id="thirteen" type="button" class="btn btn-outline-light p-4">
+          <button
+            id="thirteen"
+            type="button"
+            class="btn btn-outline-light py-3 rounded-3"
+          >
             EXPLORE MORE
           </button>
         </div>
       </div>
       <div
-        class="d-flex justify-content-around align-items-center h-75 w-100 row"
+        class="d-flex justify-content-around flex-column flex-md-row align-items-center h-75 w-100 row"
         style="padding-bottom: 55px; padding-top: 55px"
       >
         <div
           id="third_border"
-          class="border border-1 py-5 col-sm d-flex justify-content-center"
+          class="border border-1 col d-flex justify-content-center"
         >
           <div style="position: relative">
-            <img src="/images/Bitmap.png" alt="sofa" style="display: block" />
+            <img id="third_page_1" src="/images/Bitmap.png" alt="sofa" />
             <div
               style="
                 position: absolute;
-                top: 85%;
+                top: 80%;
                 left: 10%;
                 transform: translate(-30%, -50%);
               "
@@ -265,18 +275,14 @@
         </div>
         <div
           id="third_border"
-          class="border border-1 py-5 col-sm d-flex justify-content-center"
+          class="border border-1 col d-flex justify-content-center"
         >
           <div style="position: relative">
-            <img
-              src="/images/Bitmap (1).png"
-              alt="sofa"
-              style="display: block"
-            />
+            <img id="third_page_2" src="/images/Bitmap (1).png" alt="sofa" />
             <div
               style="
                 position: absolute;
-                top: 85%;
+                top: 80%;
                 left: 10%;
                 transform: translate(-30%, -50%);
               "
@@ -294,19 +300,15 @@
           </div>
         </div>
         <div
-          class="border border-1 py-5 col-sm d-flex justify-content-center"
+          class="border border-1 col d-flex justify-content-center"
           id="third_border"
         >
           <div style="position: relative">
-            <img
-              src="/images/Bitmap (2).png"
-              alt="sofa"
-              style="display: block"
-            />
+            <img id="third_page_3" src="/images/Bitmap (2).png" alt="sofa" />
             <div
               style="
                 position: absolute;
-                top: 85%;
+                top: 80%;
                 left: 10%;
                 transform: translate(-30%, -50%);
               "
@@ -327,22 +329,24 @@
     </div>
 
     <!--Fourth Page-->
-    <div class="vw-100 custom-bg2">
+    <div class="custom-bg2">
+      <br /><br /><br />
       <div
-        class="h-75 p-5 d-flex flex-column-reverse justify-content-around align-items-center flex-md-row-reverse"
+        class="h-75 d-flex flex-column-reverse justify-content-around align-items-center flex-md-row-reverse"
       >
         <div
-          class="text-dark h-75 d-flex flex-column justify-content-center flex-wrap"
-          style="width: 450px"
+          class="text-dark h-75 col-md-3 col-10 d-flex flex-column justify-content-center flex-wrap"
         >
           <p id="page4_1">Gabriel Pires</p>
           <h1 id="page4_2">Professional Web Designer</h1>
+          <br />
           <p id="page4_3">Provides a full service range</p>
-          <p id="page4_4">
+          <p id="page4_4" class="col-md-12 col-11">
             Ability to put themselves in the merchant's shoes. It is meant to
             partner on the long run, and work as an extension of the merchant's
             team.
           </p>
+          <br />
           <a
             id="page4_5"
             class="btn btn-primary flex-nowrap text-dark"
@@ -352,15 +356,15 @@
             >ABOUT ME</a
           >
         </div>
-        <img src="/images/pic4.png" alt="profile" class="h-75" />
+        <img id="fourth_page_image" src="/images/pic4.png" alt="profile" />
       </div>
 
       <div
         class="d-flex flex-md-row flex-column justify-content-center align-items-center"
         style="padding-top: 60px; padding-bottom: 80px"
       >
-        <div class="col-md-5 d-flex p-4 border border-2">
-          <div>
+        <div class="col-md-5 col-10 d-flex p-4 border border-2">
+          <div class="d-flex align-items-center mx-4">
             <div style="position: relative">
               <img
                 src="/images/Oval big.png"
@@ -380,12 +384,13 @@
             </div>
           </div>
           <div class="py-4 px-3">
+            <br />
             <p id="page4_6">42%</p>
             <p id="page4_7">Years of experience</p>
           </div>
         </div>
-        <div class="col-md-5 d-flex p-4 border border-2">
-          <div>
+        <div class="col-md-5 col-10 d-flex p-4 border border-2">
+          <div class="d-flex align-items-center mx-4">
             <div style="position: relative">
               <img
                 src="/images/Oval big.png"
@@ -405,6 +410,7 @@
             </div>
           </div>
           <div class="py-4 px-3">
+            <br />
             <p id="page4_6">73+</p>
             <p id="page4_7">Projects Done</p>
           </div>
@@ -413,16 +419,17 @@
     </div>
 
     <!--Fifth Page-->
-    <div class="vw-100 vh-md-100 custom-bg1">
+    <div class="vh-md-100 custom-bg1">
       <div
-        class="h-100 p-5 d-flex flex-md-row flex-column-reverse justify-content-evenly align-items-center"
+        class="h-100 d-flex flex-md-row flex-column-reverse justify-content-evenly align-items-center"
       >
-        <div class="text-white d-flex flex-column justify-content-center">
+        <div
+          class="text-white d-flex flex-column justify-content-center col-11 col-md-4 h-50"
+        >
           <p id="page5_1">Features</p>
+          <p id="page5_2" class="col-md-8">Give Your Site A New Look</p>
           <br />
-          <p id="page5_2" class="col-md-7">Give Your Site A New Look</p>
-          <br />
-          <p id="page5_3" class="col-md-8">
+          <p id="page5_3" class="col-md-9">
             Service range including technical skills, design, business
             understanding.
           </p>
@@ -443,16 +450,17 @@
               <a id="page5_4">Partner on the long run</a>
             </div>
           </div>
+          <br /><br /><br /><br /><br /><br />
         </div>
-        <div>
-          <img src="/images/pic (1).png" alt="profile" />
-        </div>
+        <br />
+        <img id="fifth_page_image" src="/images/pic (1).png" alt="profile" />
+        <br /><br /><br />
       </div>
     </div>
 
     <!-- middle footer -->
     <div
-      class="custom-bg3-footer vw-100 d-flex flex-md-row flex-column justify-content-around align-items-center"
+      class="custom-bg3-footer d-flex flex-md-row flex-column justify-content-around align-items-center"
     >
       <div
         class="d-flex flex-column justify-content-evenly"
@@ -480,7 +488,7 @@
         </div>
 
         <p id="middle_1">Get Started</p>
-        <p id="middle_2">I Help Companies Move Faster</p>
+        <p id="middle_2" class="col-8">I Help Companies Move Faster</p>
         <a
           id="middle_3"
           class="btn btn-primary flex-nowrap"
@@ -494,7 +502,7 @@
         class="d-flex justify-content-around flex-md-row flex-column align-items-center w-50"
       >
         <div class="d-flex custom-width">
-          <p id="middle_4">
+          <p id="middle_4" style="border: 2px solid black">
             Put themselves in the merchant's shoes. It is meant to partner on
             the long run.
           </p>
@@ -899,7 +907,7 @@
     </div> -->
 
     <!-- footer -->
-    <footer class="vw-100 custom-bg1 text-white d-none d-md-block">
+    <footer class="custom-bg1 text-white d-none d-md-block">
       <div class="d-flex flex-column justify-content-end" style="height: 450px">
         <div class="d-flex justify-content-around">
           <p id="footer_1">Personal</p>
@@ -935,7 +943,7 @@
       </div>
     </footer>
 
-    <footer class="vw-100 custom-bg1 text-white d-md-none">
+    <footer class="custom-bg1 text-white d-md-none">
       <div class="d-flex flex-column justify-content-end">
         <div
           class="d-flex flex-column justify-content-around align-items-center"
@@ -951,12 +959,12 @@
             <p id="footer_3">Contact</p>
           </div>
           <br />
-          <div class="d-flex flex-column">
-            <pre id="footer_2">   Service</pre>
-            <pre id="footer_3">    Design</pre>
-            <pre id="footer_3">  Development</pre>
-            <pre id="footer_3">   Marketing</pre>
-            <pre id="footer_3">   See More</pre>
+          <div class="d-flex flex-column text-center">
+            <p id="footer_2">Service</p>
+            <p id="footer_3">Design</p>
+            <p id="footer_3">Development</p>
+            <p id="footer_3">Marketing</p>
+            <p id="footer_3">See More</p>
           </div>
           <br />
           <div>
@@ -983,6 +991,7 @@ Copyright © 2022 Laaqiq.
       </div>
     </footer>
 
+    <!-- scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
