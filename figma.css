@@ -596,9 +596,25 @@
   color: rgba(57, 20, 0, 1);
 
   border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
-  border-radius: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 60%;
+  border-color: rgba(57, 20, 0, 0.08);
+  background-color: white;
+}
+
+#page_8_button2 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: rgba(57, 20, 0, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 150%;
   border-color: rgba(57, 20, 0, 0.08);
   background-color: white;
 }
@@ -638,11 +654,68 @@
   color: rgba(57, 20, 0, 0.64);
 
   border: 1px solid rgba(255, 255, 255, 0.3); /* Sets a solid red border with 2px width */
-  border-radius: 10px;
+  border-radius: 5px;
   padding-left: 20px;
   padding-right: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   border-color: rgba(243, 209, 191, 1);
   background-color: white;
+}
+
+#page_8_image1 {
+  height: 464px;
+  width: 770px;
+}
+
+#page_8_image2 {
+  height: 180px;
+  width: 270px;
+}
+
+#page_8_image3 {
+  height: 180px;
+  width: 270px;
+}
+
+#page8_hr {
+  width: 79%;
+}
+
+@media (max-width: 600px) {
+  #page_8_image1 {
+    height: auto;
+    width: 100%;
+  }
+  #page_8_image2 {
+    height: auto;
+    width: 100%;
+  }
+
+  #page_8_image3 {
+    height: auto;
+    width: 100%;
+  }
+
+  #page_8_4 {
+    font-size: 27px;
+  }
+
+  #page8_hr {
+    width: 90%;
+  }
+
+  #page_8_email {
+    width: 94%;
+  }
+
+  #page_8_button {
+    width: 50%;
+  }
+
+  #page_8_button2 {
+    width: 94%;
+  }
 }
 
 #page_9_1 {
