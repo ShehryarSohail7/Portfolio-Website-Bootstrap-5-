@@ -542,6 +542,18 @@
   border-color: rgba(239, 109, 88, 1);
 }
 
+.bottom_images {
+  height: auto;
+  width: 12%;
+}
+
+@media (max-width: 600px) {
+  .bottom_images {
+    height: auto;
+    width: 50%;
+  }
+}
+
 #page_8_1 {
   font-weight: 400;
   font-size: 20px;
