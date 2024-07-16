@@ -403,9 +403,25 @@
 
 #page6_2 {
   font-weight: 800;
-  font-size: 56px;
+  font-size: 48px;
   line-height: 64px;
   color: rgba(57, 20, 0, 1);
+}
+/* Media query after styling has worked here!! */
+@media (min-width: 600px) {
+  #page6_2 {
+    font-size: 60px;
+    margin-bottom: 3%;
+  }
+  #page6_mini1 {
+    height: 400px;
+  }
+  #page6_mini2 {
+    height: 450px;
+  }
+  #page6_mini3 {
+    height: 350px;
+  }
 }
 
 #page6_3 {
@@ -413,6 +429,8 @@
   font-size: 16px;
   line-height: 32px;
   color: rgba(57, 20, 0, 0.64);
+
+  padding-bottom: 15%;
 }
 
 #page6_4 {
